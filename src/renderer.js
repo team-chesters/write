@@ -28,11 +28,14 @@
 
 import { createApp } from 'vue';
 import App from './App.vue';
+import Router from './router.js'
 
 import './assets/base.css';
 import './assets/header.css';
 import './assets/manuscript.css';
-
 import './common/manuscript.js';
 
-createApp(App).mount('#app');
+const app = createApp(App);
+app.use(Router);
+
+app.mount('#app');

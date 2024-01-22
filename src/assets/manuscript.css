@@ -113,5 +113,6 @@ body {
 }
 
 .manuscript-container {
-    max-width: 860px;
+    width: 100%;
+    max-width: 483px;
 }
