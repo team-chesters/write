@@ -312,26 +312,26 @@
 
     --base-height: 603px;
 
-    --wt-btn-text-rgb: #777777;
-    --wt-input-text-rgb: #777777;
+    --wrt-btn-text-rgb: #777777;
+    --wrt-input-text-rgb: #777777;
 
-    --wt-text-xxl: 24px;
-    --wt-text-xl: 20px;
-    --wt-text-lg: 18px;
-    --wt-text-md: 16px;
-    --wt-text-sm: 14px;
-    --wt-text-xs: 12px;
-    --wt-text-xxs: 10px;
+    --wrt-text-xxl: 24px;
+    --wrt-text-xl: 20px;
+    --wrt-text-lg: 18px;
+    --wrt-text-md: 16px;
+    --wrt-text-sm: 14px;
+    --wrt-text-xs: 12px;
+    --wrt-text-xxs: 10px;
 
-    --wt-box-shadow-light: 0px 1px 3px 0px rgb(0 0 0 / 15%);
-    --wt-box-shadow: 0px 1px 5px 0px rgb(0 0 0 / 15%);
-    --wt-box-shadow-white: 0px 1px 5px 0px rgb(255 255 255 / 90%);
-    --wt-box-shadow-glass: 0px 1px 4px 0px var(--glass-25), 0px 1px 4px 0px var(--glass-25);
-    --wt-box-shadow-strong: 0px 1px 5px 0px rgba(0,0,0,0.25), 0px 1px 5px 0px rgba(0,0,0,0.22);
-    --wt-box-shadow-xstrong: 0px 0px 5px 3px rgba(0,0,0,0.5);
-    --wt-box-shadow-primary: 0px 0px 2px var(--primary-rgb);
-    --wt-box-shadow-input-focus: 0px 0px 1.5px 2px var(--light-primary-rgb);
-    --wt-base-font-family: 'Pretendard';
+    --wrt-box-shadow-light: 0px 1px 3px 0px rgb(0 0 0 / 15%);
+    --wrt-box-shadow: 0px 1px 5px 0px rgb(0 0 0 / 15%);
+    --wrt-box-shadow-white: 0px 1px 5px 0px rgb(255 255 255 / 90%);
+    --wrt-box-shadow-glass: 0px 1px 4px 0px var(--glass-25), 0px 1px 4px 0px var(--glass-25);
+    --wrt-box-shadow-strong: 0px 1px 5px 0px rgba(0,0,0,0.25), 0px 1px 5px 0px rgba(0,0,0,0.22);
+    --wrt-box-shadow-xstrong: 0px 0px 5px 3px rgba(0,0,0,0.5);
+    --wrt-box-shadow-primary: 0px 0px 2px var(--primary-rgb);
+    --wrt-box-shadow-input-focus: 0px 0px 1.5px 2px var(--light-primary-rgb);
+    --wrt-base-font-family: 'Pretendard';
 }
 
 @font-face {
@@ -387,7 +387,7 @@ html {
 
 body {
     margin: 0;
-    font-size: var(--wt-text-md); /* = 1 rem */
+    font-size: var(--wrt-text-md); /* = 1 rem */
 }
 
 fieldset {
@@ -402,13 +402,13 @@ fieldset {
 
 legend {
     position: absolute;
-    font-size: var(--wt-text-sm);
+    font-size: var(--wrt-text-sm);
     padding: 0;
     top: -9px;
     left: 10px;
 }
 
-legend label.wt-label-text {
+legend label.wrt-label-text {
     margin-bottom: 0!important;
     padding-bottom: 0!important;
 }
@@ -639,7 +639,7 @@ a {
     /*background-color: var(--page-bg-rgb);*/
 }
 
-.wt-bg-default {
+.wrt-bg-default {
     background-color: var(--page-bg-rgb);
 }
 
@@ -755,7 +755,7 @@ a {
     text-align: center;
     background-color: rgba(0, 0, 0, 0);
     color: #fff;
-    font-size: var(--wt-text-md);
+    font-size: var(--wrt-text-md);
 }
 .close-button:hover {
     background-color: red;
@@ -768,7 +768,7 @@ a {
     text-align: center;
     background-color: #fff;
     color: var(--danger-rgb);
-    font-size: var(--wt-text-md);
+    font-size: var(--wrt-text-md);
 }
 .close-button-white:hover {
     background-color: red;
@@ -782,7 +782,7 @@ a {
     text-align: center;
     background-color: rgba(0, 0, 0, 0);
     color: #fff;
-    font-size: var(--wt-text-md);
+    font-size: var(--wrt-text-md);
 }
 .minimize-button:hover {
     background-color: #747474;
@@ -795,7 +795,7 @@ a {
     text-align: center;
     background-color: #fff;
     color: var(--primary-rgb);
-    font-size: var(--wt-text-md);
+    font-size: var(--wrt-text-md);
 }
 .minimize-button-white:hover {
     background-color: var(--primary-rgb);
@@ -856,7 +856,7 @@ a {
     font-size: 9px!important;
 }
 .font-10 {
-    font-size: var(--wt-text-xxs)!important;
+    font-size: var(--wrt-text-xxs)!important;
 }
 .font-11 {
     font-size: 11px!important;
@@ -871,7 +871,7 @@ a {
     font-size: 14px!important;
 }
 .font-15 {
-    font-size: var(--wt-text-md)!important;
+    font-size: var(--wrt-text-md)!important;
 }
 .font-16 {
     font-size: 16px!important;
@@ -1698,19 +1698,19 @@ a {
     border-bottom-right-radius: 50%!important;
 }
 
-.wt-profile-black-bg {
+.wrt-profile-black-bg {
     width: 100%;
     height: 100%;
     fill: var(--black);
 }
 
-.wt-profile-default-bg {
+.wrt-profile-default-bg {
     width: 100%;
     height: 100%;
     fill: var(--success-rgb);
 }
 
-.wt-profile-default-txt {
+.wrt-profile-default-txt {
     font-size: 2em;
     fill: #fff;
   }
