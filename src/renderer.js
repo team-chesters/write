@@ -30,10 +30,12 @@ import { createApp } from 'vue';
 import App from './App.vue';
 import Router from './router.js'
 
+import 'bootstrap/dist/css/bootstrap-utilities.min.css';
 import './assets/base.css';
 import './assets/header.css';
-import './assets/manuscript.css';
-import './common/manuscript.js';
+
+// import './assets/manuscript.css';
+// import './common/manuscript.js';
 
 const app = createApp(App);
 app.use(Router);
